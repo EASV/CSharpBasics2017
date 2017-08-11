@@ -9,13 +9,15 @@ namespace ConsoleApp3
 
             bool aNumber = false;
             var firstInputAsInt = -1;
-
+           
             while (!aNumber)
             {
                 Console.WriteLine("Input the First Number :");
                 var firstInputAsText = Console.ReadLine();
                 try
                 {
+                    // Convert.ToInt32(firstInputAsText);
+
                     firstInputAsInt = int.Parse(firstInputAsText);
                     aNumber = true;
                 }
