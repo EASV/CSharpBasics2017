@@ -7,6 +7,10 @@ namespace ConsoleApp3
         static void Main(string[] args)
         {
 
+            int number = int.Parse(Console.ReadLine());
+
+            int number2 = Convert.ToInt32(Console.ReadLine());
+            
             bool aNumber = false;
             var firstInputAsInt = -1;
            
