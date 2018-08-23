@@ -16,7 +16,21 @@ namespace ConsoleApp7
 
         public Printer() {
 
+            var customer = new Customer();
+            customer.FirstName = "Lars";
+            customer.LastName = "Bilde";
+            customer.Id = 1;
 
+            var customer2 = new Customer()
+            {
+                FirstName = "John",
+                LastName = "Deer",
+                Id = 2,
+                Address = new Address(){
+                    Street = "BongoStreet",
+                    City = "Ehhhhh"
+                }
+            };
             //Show Menu
             //Wait for Selection
             // - Show selection or
